@@ -17,9 +17,26 @@ header {
     color: white;              
     text-align: center;
     margin: 0 auto;
-    width: 95%;
+    width: 95.5%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+header div{
+    background: green;
+    color: white;
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header nav{
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header ul{
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header a{
+    color: white;
 }
 h1 {
     margin: 2px auto;
@@ -60,31 +77,70 @@ strong{
 div {
     background: white;
     margin: 2px auto;
-    padding: 4px;
+    padding: 4px 2px 2px 4px;
     text-decoration: none;
     width: 95%;
+}
+div a{
+    text-decoration: none;
 }
 div p {
     background: rgb(228, 228, 128);
 }
-ul {
+div li{
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+}
+div img{
+    margin: 24px;
+}
+nav{
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    width: 94%;
+}
+nav ul {
+    display: flex;
+    
+
+
+}
+nav li {
+    list-style-type: none;
+    font-size: 12.2px;
+
+}
+ul{
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    width: 93%;
+    
+
 }
 li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
+    margin: 0px auto;
+    padding: 4px 2px 2px 4px;
+
+}
+li:hover {
+    background: greenyellow;
+    color: green;
 }
 img{
     margin: 2px auto;
-    padding: 20px;
-    width: 70%;
+    padding: 1px;
+    border: 2px solid Black;
+    width: 50%;
     height: 50%;
+    object-fit: cover;
 }
-@media (max-width:600px){
-    li {
-        padding: 15px;
-        font-size: 18px;
-    }
+footer {
+    background:green;
+    margin: 2px;
+    padding: 2px;
+    color: white;              
+    text-align: center;
+    margin: 0 auto;
+    width: 95.5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }

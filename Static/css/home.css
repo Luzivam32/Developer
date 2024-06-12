@@ -1,10 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    border: 1px solid black;*/
+    border: 1px;
 }
 body{
     background: rgb(165, 253, 203);
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
 }
 header {
     background:grey;
@@ -16,6 +19,23 @@ header {
     width: 95.5%;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
+}
+header div{
+    background: grey;
+    color: white;
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header nav{
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header ul{
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header a{
+    color: white;
 }
 h1 {
     margin: 2px auto;
@@ -50,18 +70,60 @@ p {
 div {
     background: white;
     margin: 2px auto;
-    padding: 4px;
+    padding: 4px 2px 2px 4px;
     text-decoration: none;
     width: 95%;
-}
-ul {
-    display: flex;
-    padding: 4px 8px;
-}
-li {
-    list-style-type: none;
-    padding: 4px 8px;
 }
 div a{
     text-decoration: none;
 }
+div p {
+    background: rgb(228, 228, 128);
+}
+div li{
+    list-style-type: none;
+}
+nav{
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    width: 94%;
+}
+nav ul {
+    display: flex;
+
+}
+nav li {
+    list-style-type: none;
+    font-size: 12px;
+    
+
+}
+ul{
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    width: 93%;
+    
+
+}
+li {
+    margin: 0px auto;
+    padding: 4px 2px 2px 4px;
+
+}
+li:hover {
+    background: lightgrey;
+    color:grey;
+}
+footer {
+    background:grey;
+    margin: 2px;
+    padding: 2px;
+    color: white;              
+    text-align: center;
+    margin: 0 auto;
+    width: 95.5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
