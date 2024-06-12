@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+body {
+    background:rgb(165, 253, 203);
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+
+} 
+header {
+    background:rgb(88, 88, 247);
+    margin: 2px;
+    padding: 2px;
+    color: white;              
+    text-align: center;
+    margin: 0 auto;
+    width: 95.5%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+header div{
+    background: rgb(88, 88, 247);
+    color: white;
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header nav{
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header ul{
+    margin: 1px;
+    padding: 2px 2px 0px 0px;
+}
+header a{
+    color: white;
+}
+h1 {
+    margin: 2px auto;
+    padding: 4px;
+    font-size: 60px;
+    width: 95%;
+
+}
+h2{
+    background: rgb(88, 88, 247);
+    color: white;
+    margin: 2px auto;
+    padding: 4px;
+    font-size: 30px;
+    width: 95%;
+}
+h3{
+    background: rgb(88, 88, 247);
+    color: white;
+    font-size: 24px;
+    margin: 2px auto;
+    padding: 4px;
+    width: 95%;
+}
+p {
+    background: white;
+    font-size: 16px;
+    margin: 2px auto;
+    padding: 4px;
+    width: 95%;
+}
+strong{
+    font-size: 18px;
+}
+.mac strong {
+    color: red;
+}
+div {
+    background: white;
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    text-decoration: none;
+    width: 95%;
+}
+div a{
+    text-decoration: none;
+}
+div p {
+    background: rgb(228, 228, 128);
+}
+div li{
+    list-style-type: none;
+}
+div img{
+    margin: 24px;
+}
+nav{
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    width: 94%;
+}
+nav ul {
+    display: flex;
+    
+
+
+}
+nav li {
+    list-style-type: none;
+    font-size: 12.2px;
+
+}
+ul{
+    margin: 2px auto;
+    padding: 4px 2px 2px 4px;
+    width: 93%;
+    
+
+}
+li {
+    margin: 0px auto;
+    padding: 4px 2px 2px 4px;
+
+}
+li:hover {
+    background: rgb(144, 144, 248);
+    color: blue;
+}
+img{
+    margin: 2px auto;
+    padding: 1px;
+    border: 2px solid Black;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+footer {
+    background:rgb(88, 88, 247);
+    margin: 2px;
+    padding: 2px;
+    color: white;              
+    text-align: center;
+    margin: 0 auto;
+    width: 95.5%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
