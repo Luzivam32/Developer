@@ -90,8 +90,15 @@ div p {
 div li{
     list-style-type: none;
 }
-div img{
-    margin: 24px;
+div img {
+    display: flex;
+    
+    
+}
+.exempimg{
+    display: flex;
+    
+    
 }
 nav{
     margin: 2px auto;
@@ -126,13 +133,26 @@ li:hover {
     color: blue;
 }
 img{
-    margin: 2px auto;
-    padding: 1px;
+    padding: 0 0 0 1px;
     border: 2px solid Black;
-    width: 50%;
+    width: 40%;
     height: 50%;
     object-fit: cover;
 }
+.imgex{
+    padding: 0 0 0 1px;
+    width: 35.6%;
+    height: 1%;
+    object-fit: contain;
+
+}
+.imgex01{
+    padding: 0 0 0 1px;
+    width: 50%;
+    height: 1%;
+    object-fit: contain;
+}
+
 footer {
     background:rgb(88, 88, 247);
     margin: 2px;
